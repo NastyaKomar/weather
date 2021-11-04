@@ -1,0 +1,284 @@
+body {
+    background-color: #FDD3CF;
+    position: relative;
+    margin: auto 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cont {
+    position: absolute;
+    width: 588.73px;
+    height: 835.29px;
+    left: 20px;
+}
+
+.vector {
+    position: relative;
+    top: 94px;
+    left: 259px;
+}
+
+.mainScr {
+    position: absolute;
+    width: 423.83px;
+    height: 835.29px;
+    background: #F0FAFD;
+    border-radius: 15.4684px;
+}
+
+.line {
+    position: absolute;
+    left: 29px;
+    top: 345px;
+    width: 165px;
+    border-bottom: solid #FDD3CF 1px;
+}
+
+.line2 {
+    position: absolute;
+    left: 29px;
+    top: 466px;
+    width: 364px;
+    border-bottom: solid #FDD3CF 1px;
+}
+
+.line3 {
+    position: absolute;
+    left: 29px;
+    top: 570px;
+    width: 364px;
+    border-bottom: solid #FDD3CF 1px;
+}
+
+.date {
+    position: absolute;
+    left: 115px;
+    top: 29px;
+    width: 194.13px;
+    height: 28.62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFAAA0;
+}
+
+.city {
+    outline: none;
+    border: none;
+    padding: 12px;
+    position: absolute;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 3px 4px 20px #FFAAA0;
+    width: 194.13px;
+    height: 28.62px;
+    left: 28px;
+    top: 100px;
+    color: #FFAAA0;
+}
+
+.tochka {
+    position: absolute;
+    top: 138px;
+    left: 28px;
+}
+
+.temp {
+    position: absolute;
+    width: 218.88px;
+    height: 174.02px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 116.013px;
+    line-height: 116px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFAAA0;
+    left: 25px;
+    top: 160px;
+}
+
+.fells {
+    position: absolute;
+    width: 159.32px;
+    height: 28.62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.7887px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FDD3CF;
+    top: 300px;
+    left: 29px;
+}
+
+.mm {
+    position: absolute;
+    width: 131.48px;
+    height: 28.62px;
+    top: 375px;
+    left: 29px;
+}
+
+.mm div {
+    width: 40%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23.2026px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFAAA0;
+}
+
+.wind {
+    position: absolute;
+    width: 159.32px;
+    height: 28.62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.7887px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FDD3CF;
+    top: 413px;
+    left: 28px;
+}
+
+.time {
+    position: absolute;
+    width: 378.98px;
+    height: 28.62px;
+    left: 29px;
+    top: 485px;
+}
+
+.time div {
+    width: 20%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14.695px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FDD3CF;
+}
+
+.muchtemp {
+    position: absolute;
+    width: 379.75px;
+    height: 28.62px;
+    left: 29px;
+    top: 520px;
+}
+
+.muchtemp div {
+    width: 20%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23.2026px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAAA0;
+}
+
+.img {
+    position: absolute;
+    width: 345px;
+    height: 345px;
+    left: 203px;
+    top: 89px;
+}
+.sunpic{
+    width: 100%;
+}
+.img2 {
+    position: absolute;
+    width: 31px;
+    height: 211px;
+    left: 232px;
+    top: 592px;
+}
+
+.a {
+    margin-right: 100px;
+}
+
+.b {
+    margin-right: 45px;
+    width: 31.08px;
+height: 31.08px;
+}
+
+
+
+.day1 {
+    position: absolute;
+    width: 363px;
+    height: 27px;
+    left: 28px;
+    top: 593px;
+}
+
+.day2 {
+    position: absolute;
+    width: 363px;
+    height: 27px;
+    left: 28px;
+    top: 655px;
+}
+
+.day3 {
+    position: absolute;
+    width: 363px;
+    height: 27px;
+    left: 28px;
+    top: 717px;
+}
+
+.day4 {
+    position: absolute;
+    width: 363px;
+    height: 27px;
+    left: 28px;
+    top: 779px;
+}
+
+.daysDiv {
+    width: 15%;
+    float: left;
+    font-family: RotondaC;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFAAA0;
+}
+
+.night {
+    opacity: 0.4;
+    font-size: 14px;
+}
+
+.day {
+    font-size: 22.3052px;
+    ;
+}
